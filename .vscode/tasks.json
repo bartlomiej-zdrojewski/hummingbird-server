@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "go run",
+            "type": "shell",
+            "command": "go run .",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "go build",
+            "type": "shell",
+            "command": "go build .",
+            "group": "build"
+        }
+    ]
+}

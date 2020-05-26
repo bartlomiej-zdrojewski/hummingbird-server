@@ -1,1 +1,1 @@
-# hummingbird-server
+# Hummingbird Server
